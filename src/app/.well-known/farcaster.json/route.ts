@@ -5,11 +5,13 @@ export async function GET() {
 
   const config = {
     accountAssociation: {
-      header:
-        "eyJmaWQiOjM2MjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyY2Q4NWEwOTMyNjFmNTkyNzA4MDRBNkVBNjk3Q2VBNENlQkVjYWZFIn0",
-      payload: "eyJkb21haW4iOiJmcmFtZXMtdjIudmVyY2VsLmFwcCJ9",
-      signature:
-        "MHhiNDIwMzQ1MGZkNzgzYTExZjRiOTllZTFlYjA3NmMwOTdjM2JkOTY1NGM2ODZjYjkyZTAyMzk2Y2Q0YjU2MWY1MjY5NjI5ZGQ5NTliYjU0YzEwOGI4OGVmNjdjMTVlZTdjZDc2YTRiMGU5NzkzNzA3YzkxYzFkOWFjNTg0YmQzNjFi",
+      message: {
+        domain: "",
+        timestamp: 1738720994,
+        expirationTime: 1746496994
+      },
+      signature: "84d120bfb0354aee200365bd38c3075e9e845e8f158a03e84e99e1b6b6e033896c999455e1bf6c11ef7f4c765c6319602ca212deca3bc4e3ab0572dcdf48c4011c",
+      signingKey: "6315473fb532fb8951f71f8a0d382be90700de2d397c084837a862899b46ca64"
     },
     frame: {
       version: "1",
